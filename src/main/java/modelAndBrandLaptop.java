@@ -10,11 +10,17 @@ public class modelAndBrandLaptop {
     String brand;
     String model;
     int price;
+    int ram;
+    int hdd;
+    String cpu;
 
-    public modelAndBrandLaptop(String brand, String model, int price) {
+    public modelAndBrandLaptop(String brand, String model, int price, int ram, int hdd, String cpu) {
         this.brand = brand;
         this.model = model;
         this.price = price;
+        this.ram = ram;
+        this.hdd = hdd;
+        this.cpu = cpu;
     }
 
     @Override
@@ -42,7 +48,7 @@ public class modelAndBrandLaptop {
         }
 
         modelAndBrandLaptop temp = (modelAndBrandLaptop) obj;
-        return (temp.brand.equals(this.brand) && temp.model.equals(this.model) && temp.price == this.price) ;
+        return (temp.brand.equals(this.brand) && temp.model.equals(this.model) && temp.price == this.price && temp.ram == this.ram && temp.hdd == this.hdd && temp.cpu.equals(this.cpu)) ;
     }
 }
 
