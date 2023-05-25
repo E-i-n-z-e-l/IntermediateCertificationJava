@@ -1,3 +1,8 @@
+/*
+Нерабочий метод. Найти ошибку потом.
+ */
+
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
