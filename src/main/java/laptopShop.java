@@ -6,8 +6,8 @@ public class laptopShop {
 
     public static void main(String[] args) {
         modelAndBrandLaptop laptop1 = new modelAndBrandLaptop("MSI", "Modern 14", 32999);
-        characteristicLaptop laptop13 = new characteristicLaptop("MSI", "Modern 14", 32999, 8, 256, "Intel Core i3", "Встроенная", "Linux");
-        modelAndBrandLaptop laptop2 = new modelAndBrandLaptop("MSI", "Titan GT77", 488999);
+        modelAndBrandLaptop laptop13 = new modelAndBrandLaptop("MSI", "Modern 14", 32999);
+        modelAndBrandLaptop laptop14 = new modelAndBrandLaptop("MSI", "Titan GT77", 488999);
         modelAndBrandLaptop laptop3 = new modelAndBrandLaptop("IRBIS", "NB 257", 15999);
         modelAndBrandLaptop laptop4 = new modelAndBrandLaptop("IRBIS", "17NBP4500", 49999);
         modelAndBrandLaptop laptop5 = new modelAndBrandLaptop("ACER", "Extensa 15", 25199);
@@ -22,7 +22,7 @@ public class laptopShop {
         Set<modelAndBrandLaptop> laptops = new HashSet<>();
 
         laptops.add(laptop1);
-        laptops.add(laptop2);
+        laptops.add(laptop14);
         laptops.add(laptop3);
         laptops.add(laptop4);
         laptops.add(laptop5);

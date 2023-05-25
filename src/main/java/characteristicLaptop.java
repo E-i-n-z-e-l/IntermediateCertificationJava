@@ -13,4 +13,6 @@ public class characteristicLaptop extends modelAndBrandLaptop {
         this.gpu = gpu;
         this.operatingSystem = operatingSystem;
     }
+
+
 }
